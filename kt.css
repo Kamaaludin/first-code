@@ -1,0 +1,12 @@
+body{
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.hordhac{
+    font-size: 600;
+    font-family: serif;
+    font-weight: 900;
+    background-color: burlywood;
+    width: 25rem;
+}

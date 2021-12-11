@@ -75,4 +75,48 @@ console.log(45!=45);
 let kayar=25;
 console.log(kayar===25) ;
 //console.log(result);
+let shirwac = [66,'you','kamaal',99];
 
+for (let i=0; i<shirwac.length;i++){
+    console.log(shirwac[i]);
+}
+
+let testexam = 48;
+if (testexam>=95){
+    console.log('A')
+} else if (testexam >= 80){
+    console.log ('b')
+} 
+ else if (testexam >= 70){
+    console.log ('c')
+} 
+ else if (testexam >= 60){
+    console.log ('d')
+} 
+ else if (testexam >= 50){
+    console.log ('e')
+} 
+else {
+    console.log('failed');
+}
+ /*for (let i=0;i<5;i++){
+    console.log(i)
+}*/
+
+    let i =0;
+    while (i<=5) {
+        console.log(i);
+        i++;
+    }
+    // switch case;
+    let swi='a';
+    switch(swi){
+        case 'A':
+        console.log('A')
+        break;
+        case 'B':
+        console.log('C')
+        break;
+        default:
+        console.log('wrong answer')
+    }
